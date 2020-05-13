@@ -5,7 +5,7 @@
     "price": 599,
     "currency": "INR",
     "imageUrl": "https://images.bewakoof.com/t540/save-the-planet-tree-half-sleeve-t-shirt-men-s-printed-t-shirts-272965-1583465556.jpg",
-    "available": true,
+    "isAvailable": true,
     "maxProductsPerPerson": 10
   },
   {
@@ -14,7 +14,7 @@
     "price": 499,
     "currency": "INR",
     "imageUrl": "https://images.bewakoof.com/t540/run-run-run-full-sleeve-t-shirt-men-s-printed-full-sleeve-t-shirt-272985-1586578994.jpg",
-    "available": true,
+    "isAvailable": false,
     "maxProductsPerPerson": 10
   },
   {
@@ -23,7 +23,7 @@
     "price": 499,
     "currency": "INR",
     "imageUrl": "https://images.bewakoof.com/t540/joey-to-my-chandler-half-sleeve-t-shirt--frl--men-s-printed-t-shirts-234211-1568013636.jpg",
-    "available": true,
+    "isAvailable": false,
     "maxProductsPerPerson": 10
   },
   {
@@ -32,7 +32,7 @@
     "price": 399,
     "currency": "INR",
     "imageUrl": "https://images.bewakoof.com/t540/no-story-full-sleeve-t-shirt-men-s-printed-full-sleeve-t-shirt-272325-1583314425.jpg",
-    "available": true,
+    "isAvailable": false,
     "maxProductsPerPerson": 10
   },
   {
@@ -41,7 +41,7 @@
     "price": 449,
     "currency": "INR",
     "imageUrl": "https://images.bewakoof.com/t540/mahi-aane-wala-hai-half-sleeve-t-shirt-men-s-printed-t-shirts-273029-1585828369.jpg",
-    "available": true,
+    "isAvailable": false,
     "maxProductsPerPerson": 10
   }
 ]
