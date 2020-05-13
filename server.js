@@ -9,6 +9,8 @@ let respond = function(req, res) {
     fs.readFile(fileName, (err, data) => {
       if (err) throw err;
       res.setHeader('content-type', 'application/json');
+      res.setHeader("Access-Control-Allow-Origin", "*");
+      res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
       res.statusCode = 200;
       res.write(data);
       res.end();
@@ -17,7 +19,6 @@ let respond = function(req, res) {
 }
 
 let requestHandler = function(req, res) {
-  console.log("url==>", req.url);
   respond(req, res);
   return;
 }
